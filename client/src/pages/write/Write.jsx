@@ -3,6 +3,7 @@ import "./write.css";
 import axios from "axios";
 import { Context } from "../../context/Context";
 
+
 export default function Write() {
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
